@@ -33,7 +33,7 @@ function createJob(obj) {
     </div>
     <div class="card-body">
        <div class="container">
-            <iframe src=${districtRecruitmentSite} style="width:100%; height:80vh;" allow="camera 'none'; microphone 'none'"  sandbox="" />
+            <iframe src=${districtRecruitmentSite} target="_blank" style="width:100%; height:80vh;" allow="camera 'none'; microphone 'none'; payment 'none'"   sandbox="" />
 
             </iframe>
        </div>
@@ -43,3 +43,7 @@ function createJob(obj) {
 
     return div;
 }
+
+const demo = createJob(data[0]);
+console.log(demo);
+document.querySelector('.container').appendChild(demo);
