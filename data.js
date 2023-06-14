@@ -8,6 +8,10 @@ const data = [
     url: "https://balodabazar.gov.in/",
   },
   {
+    name: 'Balodabazar Bhatapara',
+    url: "https://balodabazar.gov.in/notice_category/recruitment/",
+  },
+  {
     name: "Balrampur",
     url: "http://balrampur.gov.in/",
   },
